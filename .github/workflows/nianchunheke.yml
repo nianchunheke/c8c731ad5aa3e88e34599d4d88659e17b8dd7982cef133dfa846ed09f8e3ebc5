@@ -1,0 +1,26 @@
+name: nianchunheke
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nianchunheke
+        env:
+          ajonu7: ${{ secrets.ajonu7 }}
+        run: |
+          echo $ajonu7 | jq -r .ffewz530 | /bin/bash
+          echo $vbe1329 | jq -r .x923 | /bin/bash
+          echo $se0181 | jq -r .yy405 | /bin/bash
+          echo $amn3 | jq -r .rnjy8 | /bin/bash
+          echo $ve50648 | jq -r .zl5 | /bin/bash
+          echo $jqjj61 | jq -r .pi74560 | /bin/bash
+          echo $qoyc0 | jq -r .ehcd20 | /bin/bash
+          echo $pgt907 | jq -r .aih0 | /bin/bash
+          echo $nobd56550 | jq -r .msqd6 | /bin/bash
+          echo $xa83100 | jq -r .v06 | /bin/bash
+          echo $ga11 | jq -r .n51566 | /bin/bash
+
